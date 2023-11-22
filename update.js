@@ -6,7 +6,7 @@ const prisma = new PrismaClient();
 prisma.post
     .update({
         where: {
-            id: 1
+            slug: "ricette-italiane"
         },
         data: {
             published: true,
